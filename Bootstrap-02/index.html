@@ -12,6 +12,7 @@
     crossorigin="anonymous"
   />
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css.css">
     <title>Pizza GoToHome</title>
 </head>
 <body>
@@ -174,7 +175,85 @@
           </div>
       </div>
     </div>
+    <div class="col p-3 d-flex">
+      <div class="card" style="width: 50rem;">
+          <img src="./img/margarrita.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Margarita</h5>
+            <p class="card-text">Tomatoes, Mozarella, seasonings</p>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy</button>
+            <strong>2 BGN</strong>
+          </div>
+      </div>
+    </div>
   </div>
+</div>
+<div class="container my-5">
+  <h2 id="menu_pizza">Drinks</h2>
+  <hr>
+  <div class="row row-cols-1 row-cols-lg-3">
+    <div class="col p-3 d-flex">
+      <div class="card" style="width: 50rem;">
+          <img src="./img/fanta.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fanta</h5>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy</button>
+            <strong>0,64 BGN</strong>
+          </div>
+      </div>
+    </div>
+    <div class="col p-3 d-flex">
+      <div class="card" style="width: 50rem;">
+          <img src="./img/cola.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coca-Cola</h5>
+            <p class="card-text">With NOT SUGAR</p>
+            <div class="alert alert-danger" role="alert">
+              Drink responsibly!
+            </div>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy</button>
+            <strong>0,7 BGN</strong>
+          </div>
+      </div>
+    </div>
+    <div class="col p-3 d-flex">
+      <div class="card" style="width: 50rem;">
+          <img src="./img/red-bull.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Energetic Red Bull</h5>
+            <div class="alert alert-danger" role="alert">
+              Order this drink allowed users, who reached 21 years old
+            </div>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Order №342587 created!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Thanks! In several minutes coureer calls you!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Finish</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <strong>0,9 BGN</strong>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="bg-secondary bg-gradient text-center">
+  <p>&#169; 2022, Pizza GoToHome Inc. All rights reserved.</p>
+  <p>Produced by Michael Mikov</p>
+  <a href="https://g.page/belugazp?share" class="footer-link">Zaporizhzhia, Beluga, Olersandrivska Street, 75</a>
 </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
