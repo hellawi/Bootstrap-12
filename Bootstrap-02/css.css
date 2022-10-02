@@ -6,3 +6,11 @@
     transition: 1s ease;
     color: yellowgreen;
 }
+h1{
+    text-align: left;
+    color: white;
+    margin-left: 14px;
+}
+li{
+    text-align: left;
+}
